@@ -1,0 +1,25 @@
+# Build directories
+build/
+build*/
+out/
+subprojects/
+
+# Compiled objects and libraries
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Meson and Ninja cache / compilation databases
+.ninja_*
+compile_commands.json
+.cache/
+
+# Editor and OS files
+.vscode/
+.idea/
+*.swp
+*~
+.DS_Store
